@@ -1,0 +1,179 @@
+#container {
+  margin: 100px auto;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2,
+h3,
+a {
+  color: #34495e;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.45em;
+}
+
+.main-nav {
+  margin-top: 5px;
+}
+.logo a,
+.main-nav a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  color: yellow;
+}
+
+.main-nav a {
+  color: #34495e;
+  font-size: 0.99em;
+  color: yellow;
+}
+
+.main-nav a:hover {
+  color: #718daa;
+}
+
+.header {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border: 1px solid #a2a2a2;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: blueviolet;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto|Slabo+27px);
+body {
+background: #ececec;
+}
+
+h1 {
+font-size: 32px;
+margin-top: 30px;
+font-family: "Oswald", sans-serif;
+text-align: center;
+}
+
+.blog-wrapper {
+padding: 15px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
+.blog-wrapper .blog-card {
+-webkit-transition: 0.3s;
+-moz-transition: 0.3s;
+transition: 0.3s;
+max-width: 300px;
+margin: 15px;
+background: #fff;
+border: 1px solid #CB6074;
+text-align: center;
+cursor: pointer;
+}
+.blog-wrapper .blog-card:hover {
+box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.blog-wrapper .blog-card:hover .card-img img {
+opacity: 0.8;
+}
+.blog-wrapper .blog-card .card-img {
+position: relative;
+text-align: center;
+background: #CB6074;
+}
+.blog-wrapper .blog-card .card-img img {
+-webkit-transition: 0.3s;
+-moz-transition: 0.3s;
+transition: 0.3s;
+max-height: 180px;
+width: 100%;
+border-bottom: 4px solid #CB6074;
+}
+.blog-wrapper .blog-card .card-img:before {
+content: "";
+position: absolute;
+bottom: -8px;
+left: 50%;
+margin-left: -10px;
+width: 0;
+height: 0;
+border-top: solid 10px #CB6074;
+border-left: solid 10px transparent;
+border-right: solid 10px transparent;
+}
+.blog-wrapper .blog-card .card-img h1 {
+position: absolute;
+margin: 0;
+font-size: 42px;
+bottom: 15px;
+width: 100%;
+color: #fff;
+font-family: "Slabo 27px", serif;
+}
+.blog-wrapper .blog-card .card-details {
+margin-top: 30px;
+font-family: "Roboto", sans-serif;
+color: #3C3C3C;
+}
+.blog-wrapper .blog-card .card-details span {
+padding: 0 30px;
+}
+.blog-wrapper .blog-card .card-details span i {
+margin-right: 5px;
+}
+.blog-wrapper .blog-card .card-text {
+padding: 30px 15px;
+font-family: "Roboto", sans-serif;
+line-height: 22px;
+}
+.blog-wrapper .blog-card .read-more {
+-webkit-transition: 0.3s;
+-moz-transition: 0.3s;
+transition: 0.3s;
+display: inline-block;
+width: auto;
+text-align: center;
+text-transform: uppercase;
+background: #CB6074;
+color: #fff;
+padding: 15px;
+margin-bottom: 30px;
+font-family: "Oswald", sans-serif;
+}
+.blog-wrapper .blog-card .read-more:hover {
+background: #943143;
+}
+#divCha{
+  width: 100vw;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url('https://shopgenshin.com/style/genshi/img/background/light-bg-genshin.webp');
+}
